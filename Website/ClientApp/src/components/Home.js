@@ -15,14 +15,15 @@ export class Home extends Component {
 				title={{
 					text: 'jwithers.uk',
 					style: {
-						fontSize: '4em'
+						fontSize: '10vw'
 					}
 				}}
 				description={{
-					text: 'Our website is under construction.',
+					text: 'This website is under construction.',
 					style: {
-						fontSize: '1em',
-						maxWidth: '440px'
+						fontSize: '3vw',
+						lineHeight: '1.1em',
+						maxWidth: '480px'
 					}
 				}}
 			/>
