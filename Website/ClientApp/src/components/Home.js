@@ -10,24 +10,19 @@ export class Home extends Component {
 		return (
 			<UnderConstruction
 				background={{
-					image: 'https://static.pexels.com/photos/259698/pexels-photo-259698.jpeg',
-					textColor: '#fff',
-					overlay: {
-						color: '#000',
-						opacity: '.5'
-					}
-				}}
-				logo={{
-					src: 'https://image.ibb.co/b7guP5/Rubbby_without_text.png',
-					alt: 'alt text'
+					textColor: '#fff'
 				}}
 				title={{
-					text: 'jwithers.uk'
+					text: 'jwithers.uk',
+					style: {
+						fontSize: '4em'
+					}
 				}}
 				description={{
 					text: 'Our website is under construction.',
 					style: {
-						maxWidth: '440px',
+						fontSize: '1em',
+						maxWidth: '440px'
 					}
 				}}
 			/>
