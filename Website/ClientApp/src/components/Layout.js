@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
 import '../styles.css';
 
@@ -7,9 +7,8 @@ export class Layout extends Component {
 
 	render() {
 		return (
-			<div className="container">
+			<Fragment>
 				{this.props.children}
-			</div>
-		);
+			</Fragment>);
 	}
 }
